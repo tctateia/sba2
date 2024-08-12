@@ -1,0 +1,113 @@
+
+        @font-face {
+            font-family: "Final Fantasy";
+            src: url("finalf.ttf") format("truetype");
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: "Final Fantasy", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wallpapershome.com/images/pages/pic_h/6469.jpg');
+            background-size: cover; 
+            background-position: center; 
+        }
+
+        .navbar {
+            display: flex; 
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .nav-link {
+            font-size: 1.2em;
+            margin: 0 15px;
+            color: #ffea00;
+            text-decoration: none;
+            text-shadow: 0 0 5px #ffea00, 0 0 10px #ffea00, 0 0 15px #ffea00, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #ffd700;
+            transform: scale(1.1); 
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .glowing-text {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffea00;
+            text-shadow: 0 0 5px #ffea00, 0 0 10px #ffea00, 0 0 15px #ffea00, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700;
+            margin: 20px 0;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            margin: 20px 0;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
+
+        .link {
+            display: block;
+            margin-top: 10px;
+            color: #ffea00;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .link:hover {
+            color: #ffd700;
+        }
+    
+
+    .hidden-audio {
+        display: none;
+    }
+
+    .search-bar {
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .search-bar input[type="text"] {
+        padding: 10px;
+        width: 200px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    
+    .search-bar button {
+        padding: 10px 20px;
+        background-color: blue;
+        color: yellow;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .search-bar button:hover {
+        background-color: blue;
+    }
+    
+    
+  
